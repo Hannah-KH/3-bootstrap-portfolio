@@ -30,8 +30,12 @@ body {
     justify-content: flex-start;
   }
 
-  a {
+  nav a {
     color: var(--light);
+    text-decoration: none;
+  }
+
+  footer a {
     text-decoration: none;
   }
 
