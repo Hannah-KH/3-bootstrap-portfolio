@@ -46,6 +46,10 @@ body {
   .card-body {
     background-color: var(--light);
   }
+
+  .card {
+    margin: 10px 10px;
+  }
   
   .valueProp {
     margin-top: 15px;
