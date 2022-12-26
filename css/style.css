@@ -42,6 +42,10 @@ body {
   .cardContainer {
     text-align: start;
   }
+
+  .card-body {
+    background-color: var(--light);
+  }
   
   .valueProp {
     margin-top: 15px;
