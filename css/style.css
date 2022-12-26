@@ -85,3 +85,13 @@ code-card .card-header {
 .cardGlow:hover .card-header {
   box-shadow: inset 0px 0px 8px var(--light), 0 0 15px var(--light);
 }
+
+.nav-link:hover, .card-link:hover, .link:hover { 
+  color: #64c2f8; 
+} 
+
+.link {
+  text-decoration: underline;
+  color: var(--dark);
+}
+
