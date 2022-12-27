@@ -22,11 +22,11 @@ If you inspect the page you can view the HTML and CSS and see how it works.
 
 Desktop view:
 
-![Screenshot of deployed page.](images/DesktopView.png)
+![Screenshot of deployed page.](images/3DesktopView.png)
 
 Mobile view:
 
-![Screenshot of deployed page.](images/MobileView.png)
+![Screenshot of deployed page.](images/3MobileView.png)
 
 ## Credits
 
