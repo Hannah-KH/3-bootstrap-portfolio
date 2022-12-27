@@ -3,13 +3,22 @@
     --light: #D0D8D8;
   }
 
+nav a {
+    color: var(--light);
+    text-decoration: none;
+  }
+
+.nav-link:hover, .card-link:hover, .link:hover { 
+  color: #64c2f8; 
+  }
+
 body {
     width: 100%;
     height: 100%;
     background-color: #28303D !important;
-  }
+  }  
 
-  /* Jumbotron  */
+/* Jumbotron  */
   
 .jumbotron {
     background-image: url(../images/herobanner2.png);
@@ -21,50 +30,16 @@ body {
     justify-content: center;
   }
 
-  .jumboCopy {
+.jumboCopy {
     background-color: #D0D8D8;
     display: flex;
   }
 
-  .display-4 {
+.display-4 {
     justify-content: flex-start;
   }
 
-  nav a {
-    color: var(--light);
-    text-decoration: none;
-  }
-
-  footer a {
-    text-decoration: none;
-  }
-
-  .cardContainer {
-    text-align: start;
-  }
-
-  .card-body {
-    background-color: var(--light);
-  }
-
-  .card {
-    margin: 10px 10px;
-  }
-  
-  .valueProp {
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .imageContainer {
-    padding: 50px;
-  }
-  
-  .imageContainer img {
-    width: 100%;
-  }
-
-  .About, .Work, .Contact {
+.About, .Work, .Contact {
     background-color: var(--light);
     font: var(--dark);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -73,25 +48,39 @@ body {
     padding: 0px 10px;
     width: 100%;
     margin-bottom: 12px;
+  } 
+
+.valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
+.cardContainer {
+    text-align: start;
+  }
+
+.card {
+    margin: 10px 10px;
+  }
+
+.card-body {
+    background-color: var(--light);
+  }
+
+.imageContainer {
+    padding: 50px;
+  }
   
-code-card .card-header {
-  border-radius: 8px;
-  transition: all 0.5s ease-in-out;
-}
-                
+.imageContainer img {
+    width: 100%;
+  }
+       
 .cardGlow:hover,
 .cardGlow:hover .card-header {
   box-shadow: inset 0px 0px 8px var(--light), 0 0 15px var(--light);
 }
 
-.nav-link:hover, .card-link:hover, .link:hover { 
-  color: #64c2f8; 
-} 
-
 .link {
   text-decoration: underline;
   color: var(--dark);
 }
-
